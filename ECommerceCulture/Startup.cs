@@ -80,8 +80,6 @@ namespace ECommerceCulture
                     pattern: "{culture}/{controller}/{action}/{id?}",
                     defaults: new { culture = "en", controller = "Home", action = "Index" }
                     );
-                    
-                    
             });
         }
     }
